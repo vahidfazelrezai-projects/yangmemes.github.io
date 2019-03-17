@@ -1,0 +1,10 @@
+* {
+  font-family: sans-serif
+}
+
+.wrapper {
+  height: 95vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
