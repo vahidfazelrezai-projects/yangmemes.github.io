@@ -19,7 +19,7 @@ const HANDLES = [
   'AndrewYangVFA',
 ];
 $(document).ready(() => {
-  $.get('http://ec2-34-213-41-242.us-west-2.compute.amazonaws.com/followers', (data) => {
+  $.get('https://api.yangmemes.com/followers', (data) => {
     data.sort((a, b) => (a.handle.toLowerCase() > b.handle.toLowerCase() ? 1 : -1));
     Plotly.newPlot(
       document.getElementById('plot'),
