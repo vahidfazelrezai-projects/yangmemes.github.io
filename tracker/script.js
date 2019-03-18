@@ -48,7 +48,6 @@ $(document).ready(() => {
           },
         },
         yaxis: {
-          range: [0, 3000],
           dtick: 500,
           tick0: 0,
           gridwidth: 1,
