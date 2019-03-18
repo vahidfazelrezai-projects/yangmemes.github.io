@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Yang Memes</title>
+    <title>2020 Candidate Tracker</title>
     <meta charset="utf-8" />
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name="robots" content="index, follow" />
-    <meta name="description" content="Yang Memes. Andrew Yang for President 2020." />
-    <meta property="og:title" content="Yang Memes" />
-    <meta property="og:description" content="Yang Memes. Andrew Yang for President 2020." />
+    <meta name="description" content="See how candidates are doing on donations, followers, and more." />
+    <meta property="og:title" content="2020 Candidate Tracker" />
+    <meta property="og:description" content="See how candidates are doing on donations, followers, and more." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://yangmemes.com" />
-    <meta property="og:image" content="/assets/banner.jpg" />
+    <meta property="og:url" content="https://yangmemes.com/tracker" />
+    <meta property="og:image" content="/assets/trackersnapshot.png" />
 
     <!-- Styles -->
     <link rel="shortcut icon" href="/assets/favicon.png" />
@@ -18,9 +18,14 @@
   </head>
   <body>
 
-    <script>window.location = "/tracker";</script>
-    
+    <div class="wrapper">
+      <div id="plot"></div>
+    </div>
+
     <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="script.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136380098-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
