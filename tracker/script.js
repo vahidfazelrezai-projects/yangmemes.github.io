@@ -17,6 +17,8 @@ const HANDLES = [
   //'JohnDelaney',
   'CoryBooker',
   'AndrewYangVFA',
+  //'realDonaldTrump',
+  'AndrewYang',
 ];
 $(document).ready(() => {
   $.get('https://api.yangmemes.com/followers', (data) => {
